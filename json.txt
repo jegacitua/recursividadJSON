@@ -8,7 +8,7 @@
   {"ID_UNIDAD":"27","NOMBRE_UNIDAD_ACTIVA":"B","HIJOS":[]},
 
   {"ID_UNIDAD":"28","NOMBRE_UNIDAD_ACTIVA":"C","HIJOS":[
-                                                          {"ID_UNIDAD":"25","NOMBRE_UNIDAD_ACTIVA":"o","HIJOS":[]},
-                                                          {"ID_UNIDAD":"26","NOMBRE_UNIDAD_ACTIVA":"p","HIJOS":[]}
+                                                          {"ID_UNIDAD":"29","NOMBRE_UNIDAD_ACTIVA":"o","HIJOS":[]},
+                                                          {"ID_UNIDAD":"30","NOMBRE_UNIDAD_ACTIVA":"p","HIJOS":[]}
                                                        ]}
 ]
