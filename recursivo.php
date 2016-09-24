@@ -19,7 +19,7 @@
 				 WHERE
 				  ta_unidad_activa.id_unidad = ".$id."
 				  AND ta_unidad_activa.estado_unidad_activa = 1";
-		//echo $instruccion;
+		//echo $sql1;
 		//exit;
 		
 		$Result = mysqli_query($conexion,$sql1);		 
@@ -50,7 +50,7 @@
 						 WHERE
 						  ta_unidad_padre.id_unidad_depende = ".$id."
 						  AND ta_unidad_padre.id_unidad = ta_unidad_activa.id_unidad";
-				//echo $instruccion;
+				//echo $sql2;
 				//exit;
 				
 				$Result2 = mysqli_query($conexion,$sql2);
@@ -83,7 +83,7 @@
 			WHERE 
 			  ta_unidad_padre.id_unidad IS NULL
 			  AND (ta_unidad.ID_UNIDAD = ta_unidad_activa.id_unidad AND ta_unidad_activa.estado_unidad_activa = 1)";
-	//echo $instruccion;
+	//echo $sql;
 	//exit; 
 
 	$Result = mysqli_query($conexion,$sql);
